@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HTML TAGS</title>
+    
+</head>
+<body>
+    <section class="main-sec">
+        <div align="middle">
+            <h1>HTML TAGS</h1>
+        </div>
+		<br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;!DOCTYPE&gt;</h3>
+            <p>Its an "information" to the browser about what document type to expect.</p>
+            <p>eg: <code>&lt;!DOCTYPE html&gt;</code></p>
+        </div>
+		<br>
+        <hr>
+        <br>
+        <div>
+        <h3>&lt;a&gt;</h3>
+            <p>The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.</p>
+            <p>To download file when clicking on the link</p>
+            <a href="./img/Tulips.jpg" download>Download Image</a>
+        </div>
+		<br>
+        <div>
+            <p>To open a link in a new browser window:</p>
+            <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com</a>
+		</div>
+        <br>
+        <div>
+            <p>To link to an email address:</p>
+            <a href="mailto:aryaperumal.m@gmail.com">Send email</a>
+		</div>
+        <br>
+        <div>
+            <p>To link to a phone number:</p>
+            <a href="tel:+919655907869">++91 9655907869</a>
+		</div>
+        <br>
+        <div>
+            <p>To use an image as a link:</p>
+            <a href="https://www.w3schools.com" target="_blank">
+                <img border="0" alt="W3Schools" src="./img/w3s.png" width="50" height="50">
+			</a>
+		</div>
+        <br>
+        <hr>
+        <br>		
+		<div>
+            <h3>&lt;abbr&gt;</h3>
+            <p>The &lt;abbr&gt; tag defines an abbreviation or an acronym, like "HTML"</p>
+            <p><abbr title="Hyper Text Markup Language">HTML</abbr> is a markup language.</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;address&gt;</h3>
+            <p>The &lt;address&gt; tag defines the contact information, which can be an email address, URL, physical address, phone number, social media handle, etc.</p>
+            <br>
+            <address>
+                Navitha Apartments,<br>
+                #44, 2nd St, MCN Nagar,<br>
+                Thoraipakkam, OMR, Chennai,<br>
+                Tamil Nadu 600097
+            </address>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;article&gt;</h3>
+            <p>The &lt;article&gt; tag specifies independent, self-contained content.(eg. Blog post, News story)</p>
+            <br>
+            <article>
+                <h4>Google Chrome</h4>
+                <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            </article>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;aside&gt;</h3>
+            <aside>
+                <p>We can use CSS to style &lt;aside&gt;</p>
+            </aside>
+            <p>The &lt;aside&gt; tag defines some content aside from the content it is placed in, which be indirectly related to the surrounding content.</p>
+            <p>The &lt;aside&gt; element does not render as anything special in a browser.</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;audio&gt;</h3>
+            <p>The &lt;audio&gt; element is used to play an audio file on a web page.</p>
+            <p>The <b>controls</b> attribute adds audio controls, like play, pause, and volume.</p>
+            <p>Add <b>muted</b> and <b>autoplay</b> to let your audio file start playing automatically but muted.</p>
+        </div>
+        <br>
+        <div align="middle">
+        <h4>Shape of You - iPhone</h4><br>
+        <audio controls muted >
+            <source src="./audio/Shape-of-you-iPhone.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;b&gt;</h3>
+            <p>The &lt;b&gt; tag specifies bold text without any extra importance. eg. <b>Fabevy</b></p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;bdo&gt;</h3>
+            <p>bdo stands for Bi-Directional Override. The &lt;bdo&gt; tag is used to override the current text direction.</p>
+            <br>
+            <p>Left to Right:&nbsp;&nbsp;&nbsp;<bdo dir="ltr">Intelligence is the ability to adapt to change.</bdo></p> 
+            <p>Right to Left:&nbsp;&nbsp;&nbsp;<bdo dir="rtl">Intelligence is the ability to adapt to change.</bdo></p> 
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;blockquote&gt;</h3>
+            <p>The &lt;blockquote&gt; tag specifies a section that is quoted from another source.</p>
+            <br>
+            <blockquote cite="https://mars.nasa.gov/#red_planet/3">
+                Mars’ atmosphere is composed primarily of carbon dioxide (about 96 percent), with minor amounts of other gases such as argon and nitrogen. The atmosphere is very thin, however, and the atmospheric pressure at the surface of Mars is only about 0.6 percent of Earth’s (101,000 pascals).
+            </blockquote>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;button&gt;</h3>
+            <p>The &lt;button&gt; tag defines a clickable button.</p>
+            <br>
+            <button type="button">Click me</button>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;caption&gt;</h3>
+            <p>The &lt;caption&gt; tag defines a table caption, it must be inserted immediately after the &lt;table&gt; tag.</p>
+            <table border="1px">
+                <caption style="text-align:center">Details:</caption><br>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>22</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;cite&gt;</h3>
+            <p>The &lt;cite&gt; tag defines the title of a creative work,(e.g. a book). The text in this element usually renders in italic.</p>
+            <p style="color:crimson;"><cite>“Be active! Take on responsibility! Work for the things you believe in. <br> If you do not, you are surrendering your fate to others.”</cite>&nbsp;&nbsp;&nbsp; - by APJ Abdul Kalam, Wings of Fire.</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;code&gt;</h3>
+            <p>The &lt;code&gt; tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.</p>
+            <br>
+<code>
+    <pre style="color:crimson;">
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        section{
+            background-color: #fff;
+            margin: 0 20%;
+            padding: 5%;
+        }
+    </pre>
+</code>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;data&gt;</h3>
+            <p>The &lt;data&gt; tag is used to add a machine-readable translation of a given content.</p>
+            <p>The following example displays product names but also associates each name with a product number:</p>
+            <br>
+            <ul style="margin-left: 50px;">
+                <li><data value="21053">Cherry Tomato</data></li>
+                <li><data value="21054">Beef Tomato</data></li>
+                <li><data value="21055">Snack Tomato</data></li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;datalist&gt;</h3>
+            <p>The &lt;datalist&gt; tag specifies a list of pre-defined options for an &lt;input&gt; element and also used to provide an "autocomplete" feature for it.</p>
+            <br>
+            <label for="mobile">Choose a Mobile:</label>&nbsp;&nbsp;&nbsp;
+            <input list="mobiles" name="mobile" id="mobile">
+            <datalist id="mobiles">
+                <option value="Samsung">
+                <option value="Apple">
+                <option value="Redmi">
+                <option value="Realme">
+                <option value="Oneplus">
+            </datalist>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;dl&gt; , &lt;dt&gt; and &lt;dd&gt;</h3>
+            <p>The &lt;dl&gt; tag defines a description list.</p>
+            <p>The &lt;dt&gt; tag defines a term/name in a description list.</p>
+            <p>The &lt;dd&gt; tag is used to describe a term/name in a description list. Inside this tag you can put paragraphs, line breaks, images, links, lists, etc.</p>
+            <br>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;del&gt;</h3>
+            <p>The &lt;del&gt; tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.</p>
+            <br>
+            <p>My favorite color is <del>red</del>!</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;details&gt; and &lt;summary&gt;</h3>
+            <p>The &lt;details&gt; tag specifies additional details that the user can open and close on demand.</p>
+						<p>The &lt;summary&gt; tag defines a visible heading for the &lt;details&gt; element. The heading can be clicked to view/hide the details.</p>
+            <br>
+            <details>
+                <summary>HTML</summary>
+                <p>The term HTML stands for HyperText Markup Language. It is a type of markup language that lets a user describe the structure of their web page.</p>
+            </details>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;dfn&gt;</h3>
+            <p>The &lt;dfn&gt; tag stands for the "definition element", and it specifies a term that is going to be defined within the content.</p>
+            <p style="color: purple;">Define: Recursion.</p>
+            <p><dfn>Recursion is a process in computer programming in which a function calls on itself as a subroutine.</dfn></p>
+        </div>
+				<br>
+        <hr>
+        <br>
+				<div>
+						<h3>&lt;div&gt; and &lt;section&gt;</h3>
+						<p>The &lt;div&gt; tag defines a division or a section in an HTML document. It is easily styled by using the class or id attribute.</p>
+						<p>The &lt;section&gt; tag defines a section in a document.</p>
+						<br>
+						<div>
+							<h4>This is a heading in a div element</h4>
+							<p>This is some text in a div element.</p>
+						</div>
+						<br>
+						<section class="inner-sec">
+							<h4>This is a heading in a section element</h4>
+							<p>This is some text in a section element.</p>
+						</section>
+						
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;em&gt;</h3>
+				<p>The &lt;em&gt; tag is used to define emphasized text. The content inside is typically displayed in italic.</p>
+				<br>
+				<p>You <em>have</em> to hurry up!</p>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;figure&gt; , &lt;figcaption&gt; and &lt;img&gt;</h3>
+				<p>The &lt;figure&gt; tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</p>
+				<br>
+				<p>The &lt;figcaption&gt; tag defines a caption for a &lt;figure&gt; element. It can be placed as the first or last child of the &lt;figure&gt; element.</p>
+				<br>
+				<p>The &lt;img&gt; tag is used to embed an image in an HTML page. It creates a holding space for the referenced image.</p>
+				<p>The &lt;img&gt; tag has two required attributes:</p>
+				<p>src - Specifies the path to the image</p>
+				<p>alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</p>
+				<br>
+				<figure align="middle">
+        <img src="./img/Tulips.jpg" alt="Panda" width="600px" height="300px">
+        <br>
+        <figcaption style="color:blue;">Tulips</figcaption>
+    </figure>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;h1&gt; to &lt;h6&gt;</h3>
+				<p>The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</p>
+				<br>
+						<h1>Frontend</h1>
+						<h3>HTML</h3>
+						<h3>CSS</h3>
+						<h3>JAVASCRIPT</h3>							
+				</div>
+				<br>
+        
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;form&gt; , &lt;fieldset&gt; and &lt;legend&gt;</h3>
+				<p>The &lt;form&gt; tag is used to create an HTML form for user input.</p>
+				<p>The &lt;fieldset&gt; tag is used to group related elements in a form. It draws a box around the related elements.</p>
+				<p>The &lt;legend&gt; tag defines a caption for the &lt;fieldset&gt; element.</p>
+				<br>
+				<form>
+                    <fieldset>
+                    <legend>User Info:</legend>
+                    <div style="padding:5px;">
+                    <br>
+                        <label for="fname">Enter Name:</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <input type="button" value="Submit">
+                        </div>
+                    <br>
+                    </fieldset>
+                </form>
+				</div>
+				<br>
+                <hr>
+        <br>
+				<div>
+				<h3>&lt;html&gt; , &lt;head&gt; , &lt;meta&gt; and &lt;body&gt;</h3>
+                The &lt;html&gt; tag represents the root of an HTML document.
+				<p>The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.</p>
+				<p>The &lt;meta&gt; tag defines metadata about an HTML document. Metadata is data (information) about data.</p>
+                <p>The &lt;body&gt; tag defines the document's body which contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+				<br>
+<code>
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+        &lt;title&gt;Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;&lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+</code>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;header&gt; and &lt;footer&gt;</h3>
+				<p>The &lt;header&gt; element represents a container for introductory content or a set of navigational links.</p>
+                <p>It contains one or more heading, logo or icon and authorship information.</p>
+                <br>
+                <p>The &lt;footer&gt; tag defines a footer for a document or section.</p>
+                <p>It contains authorship information, copyright information, contact, sitemap, back to top links and related links</p>
+                <br>
+<code>
+    <pre>
+    &lt;header&gt;
+        &lt;h4&gt;Hello Developers.!&lt;/h4&gt;
+    &lt;/header&gt;
+    &lt;div&gt;
+        &lt;p&gt;Welcome all to my web page to explore the content about HTML and CSS.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;footer&gt;
+        &lt;p&gt;Owner: Arya Karthi&lt;/p&gt;
+        &lt;p&gt;&lt;a href=&quot;mailto:aryaperumal.m@gmail.com&quot;&gt;Drop a mail&lt;/a&gt;&lt;/p&gt;
+    &lt;/footer&gt;
+    </pre>
+</code>
+                <br>
+                <header>
+                    <h4>Hello Developers.!</h4>
+                </header>
+                <div>
+                    <p>Welcome all to my web page to explore the content about HTML and CSS.</p>
+                </div>
+                <footer>
+                    <p>Owner: Arya Karthi</p>
+                    <p><a href="mailto:aryaperumal.m@gmail.com">Drop a mail</a></p>
+                </footer>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;input&gt;</h3>
+				<p>The &lt;input&gt; tag specifies an input field where the user can enter data. It can be displayed in several ways, depending on the type attribute.</p>
+                <p>The &lt;label&gt; tag defines a label for an &lt;input&gt; element</p>
+                <br>
+<code>
+    <pre>
+        &lt;label for=&quot;username&quot;&gt;Username : &lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;username&quot; name=&quot;username&quot;&gt;&lt;br&gt;
+        &lt;label for=&quot;password&quot;&gt;Password : &lt;/label&gt;
+        &lt;input type=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot;&gt;&lt;br&gt;
+        &lt;input type=&quot;button&quot; value=&quot;Login&quot;&gt; &lt;input type=&quot;reset&quot; value=&quot;Reset&quot;&gt;
+    </pre>
+</code>
+                <br>
+                <label for="username">Username : </label>&nbsp;
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password : </label>&nbsp;
+                <input type="password" id="password" name="password"><br>
+                <input type="button" value="Login">&nbsp;&nbsp;<input type="reset" value="Reset">
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;kbd&gt;</h3>
+				<p>The &lt;kbd&gt; tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.</p>
+                <br>
+                <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p><br>
+                <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;link&gt;</h3>
+				<p>The &lt;link&gt; tag defines the relationship between the current document and an external resource. It is most often used to link to external style sheets or to add a favicon to your website.</p>
+                <br>
+<code>
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;./css/style.css&quot;&gt;
+</code>
+				</div>
+                <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;main&gt;</h3>
+				<p>The &lt;main&gt; tag specifies the main content of a document.</p>
+                <br>
+<code>
+    <pre>
+    &lt;main&gt;
+        &lt;h4&gt;Most Popular Browsers&lt;/h4&gt;
+        &lt;p&gt;Chrome, Firefox, and Edge are the most used browsers today.&lt;/p&gt;
+    &lt;/main&gt;
+    </pre>
+</code>
+                <main>
+                    <h4>Most Popular Browsers</h4>
+                    <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+                </main>
+				</div>
+                <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;meter&gt;</h3>
+				<p>The &lt;meter&gt; tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.</p>
+                <br>
+<code>
+    <pre>
+    &lt;label for=&quot;disk_c&quot;&gt;Windows C:&lt;/label&gt;
+    &lt;meter id=&quot;disk_c&quot; value=&quot;3&quot; min=&quot;0&quot; max=&quot;10&quot;&gt;&lt;/meter&gt;
+    &lt;label for=&quot;disk_d&quot;&gt;Drive D:&lt;/label&gt;
+    &lt;meter id=&quot;disk_d&quot; value=&quot;0.6&quot;&gt;&lt;/meter&gt;
+    </pre>
+</code>
+                <label for="disk_c">Windows C:</label>
+                <meter id="disk_c" value="3" min="0" max="10"></meter>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="disk_d">Drive D:</label>
+                <meter id="disk_d" value="0.6"></meter>
+				</div>
+                <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;nav&gt;</h3>
+				<p>The &lt;nav&gt; tag defines a set of navigation links. It is intended only for major blocks of navigation links.</p>
+                <br>
+                <nav>
+                    <a href="https://www.w3schools.com/html/" target="_blank">HTML</a> |
+                    <a href="https://www.w3schools.com/css/" target="_blank">CSS</a> |
+                    <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a> |
+                    <a href="https://www.w3schools.com/python/" target="_blank">Python</a>
+                </nav>
+				</div>
+                <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;noscript&gt;</h3>
+				<p>The &lt;noscript&gt; tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.</p>
+                <br>
+<code>
+    <pre>
+    &lt;script&gt;
+        document.write(&quot;Hello World!&quot;)
+    &lt;/script&gt;
+    &lt;noscript&gt;Your browser does not support JavaScript!&lt;/noscript&gt;
+    </pre>
+</code>
+                <script>
+                    document.write("Hello World!")
+                </script>
+                <noscript>Your browser does not support JavaScript!</noscript>
+				</div>
+                <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;select&gt; , &lt;optgroup&gt; and &lt;option&gt;</h3>
+				<p>The &lt;select&gt; element is used to create a drop-down list which used in a form, to collect user input.</p>
+				<p>The &lt;optgroup&gt; tag is used to group related options in a &lt;select&gt; element (drop-down list).</p>
+                <p>The &lt;option&gt; tag defines an option in a select list.</p>
+                <br>
+<code>
+    <pre>
+    &lt;label for=&quot;mobiles&quot;&gt;Choose Mobile:&lt;/label&gt;
+    &lt;select  name=&quot;mobiles&quot; id=&quot;mobiles&quot;&gt;
+    &lt;optgroup label=&quot;Samsung&quot;&gt;
+        &lt;option value=&quot;s22&quot;&gt;Galaxy S22&lt;/option&gt;
+        &lt;option value=&quot;s21&quot;&gt;Galaxy S21&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label=&quot;Apple&quot;&gt;
+        &lt;option value=&quot;ip13pro&quot;&gt;iPhone13 Pro&lt;/option&gt;
+        &lt;option value=&quot;ip13mini&quot;&gt;iPhone13 Mini&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;/select&gt;
+    </pre>
+</code>
+                <br>
+                <label for="mobiles">Choose Mobile:</label>
+                <select  name="mobiles" id="mobiles">
+                <optgroup label="Samsung">
+                    <option value="s22">Galaxy S22</option>
+                    <option value="s21">Galaxy S21</option>
+                </optgroup>
+                <optgroup label="Apple">
+                    <option value="ip13pro">iPhone13 Pro</option>
+                    <option value="ip13mini">iPhone13 Mini</option>
+                </optgroup>
+                </select>
+				</div>
+                <!-- <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;output&gt;</h3>
+				<p>The &lt;output&gt; tag is used to represent the result of a calculation (like one performed by a script).</p>
+                <br>
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="x" for="a b"></output>
+                </form>
+				</div> -->
+                <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;picture&gt; and &lt;source&gt;</h3>
+				<p>The &lt;picture&gt; tag defines a container for multiple image resources. contains two tags: one or more &lt;source&gt; tags and one &lt;img&gt; tag.</p>
+				<p>The &lt;source&gt; tag is used to specify multiple media resources for media elements, such as &lt;audio&gt;, &lt;video&gt;, and &lt;picture&gt;.</p>
+                <br>
+                <picture>
+                    <source media="(min-width:750px)" srcset="./img/pexels-medium.jpg">
+                    <source media="(min-width:465px)" srcset="./img/pexels-small.jpg">
+                    <img src="./img/pexels-large.jpg" alt="Flowers" style="width:auto;">
+                </picture>
+				</div>
+                <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;progress&gt;</h3>
+				<p>The &lt;progress&gt; tag represents the completion progress of a task. Always add the &lt;label&gt; tag for best accessibility practices!
+				</p>
+				<br>
+				<label for="file">Downloading progress:</label>
+				<progress id="file" value="32" max="100"> 32% </progress>
+				</div>
+        <br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;q&gt;</h3>
+				<p>The &lt;q&gt; tag defines a short quotation.</p>
+				<br>
+				<p><q>Dream is not that which you see while sleeping it is something that does not let you sleep.</q> ― A.P.J. Abdul Kalam</p>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;samp&gt;</h3>
+				<p>The &lt;samp&gt; tag is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.</p>
+				<br>
+				<p>Message from my computer:</p>
+				<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;script&gt;</h3>
+				<p>The &lt;script&gt; tag is used to embed a client-side script (JavaScript).</p>
+				<p>The &lt;script&gt; element either contains scripting statements, or it points to an external script file through the src attribute.</p>
+				<br>
+<code>
+<pre>
+	&lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;
+	&lt;script&gt;
+		document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello JavaScript!&quot;;
+	&lt;/script&gt;
+</pre>
+</code>
+				<br>
+				<p id="demo"></p>
+				<script>
+					document.getElementById("demo").innerHTML = "Hello JavaScript!";
+				</script> 
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;span&gt;</h3>
+				<p>The &lt;span&gt; tag is an inline container used to mark up a part of a text, or a part of a document.</p>
+				<p>It is much like the &lt;div&gt; element, but &lt;div&gt; is a block-level element and &lt;span&gt; is an inline element.</p>
+				<br>
+				<p>My favorite color is <span style>blue</span></p>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;style&gt;</h3>
+				<p>The &lt;style&gt; tag is used to define style information (CSS) for a document. Inside this element we specify how HTML elements should render in a browser.</p>
+				<br>
+				<code>
+				<pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+  h1 {color:red;}
+  p {color:blue;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;A heading&lt;/h1&gt;
+&lt;p&gt;A paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+				</pre>
+				</code>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;var&gt;</h3>
+				<p>The &lt;var&gt; tag is used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.</p>
+				<br>
+				<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3>&lt;wbr&gt;</h3>
+				<p>The &lt;wbr&gt; (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.</p>
+				<br>
+				<p>To learn Front-end Development, you must be familiar with the <wbr>HTML, CSS, JavaScript and React-JS</p>
+				</div>
+				<br>
+        <hr>
+        <br>
+				<div>
+				<h3></h3>
+				<p></p>
+				</div>
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+        <!-- ********  HTML TAGS  ********* -->
+
+    </section>
+</body>
+</html>
