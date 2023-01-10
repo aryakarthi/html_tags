@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>HTML TAGS</title>
-    
+    <!-- <base href="https://developer.mozilla.org/en-US/" target="_blank"> -->
 </head>
 <body>
     <section class="main-sec">
@@ -74,6 +74,24 @@
                 Tamil Nadu 600097
             </address>
         </div>
+
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;area&gt;</h3>
+            <p>The &lt;area&gt;  tag defines an area inside an image map (an image map is an image with clickable areas). </p>
+
+            <img src="./img/area-img.jpg" alt="Area Image" style="display: block;" usemap="#workmap" width="400" height="379">
+
+            <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area">
+            <!-- <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area"> -->
+            </map>
+
+        </div>
+
         <br>
         <hr>
         <br>
@@ -121,6 +139,32 @@
             <h3>&lt;b&gt;</h3>
             <p>The &lt;b&gt; tag specifies bold text without any extra importance. eg. <b>Fabevy</b></p>
         </div>
+
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;base&gt;</h3>
+            <p>The &lt;base&gt; tag specifies the base URL and/or target for all relative URLs in a document. </p>
+
+            <a href="docs/Web/HTML/Element/base">HTML Base Tag</a>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;bdi&gt;</h3>
+            <p>The &lt;bdi&gt; tag isolates a part of text that might be formatted in a different direction from other text outside it. </p><br>
+
+            <h4>World F1 Championship</h1>
+            <ul style="list-style-position: inside;">
+                <li><bdi class="name">Evil Steven</bdi>: First place</li>
+                <li><bdi class="name">Françis </bdi>: Second place</li>
+                <li><span class="name">تیز سمی</span>: Third place</li>
+            </ul>
+        </div>
+
         <br>
         <hr>
         <br>
@@ -151,6 +195,26 @@
             <br>
             <button type="button">Click me</button>
         </div>
+
+
+
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h3>&lt;canvas&gt;</h3>
+            <p>The &lt;canvas&gt; tag is used to draw graphics, on the fly, via scripting (usually JavaScript). </p><br>
+
+            <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#ddd";
+                ctx.fillRect(10, 10, 100, 100);
+            </script>
+        </div>
+
+
         <br>
         <hr>
         <br>
